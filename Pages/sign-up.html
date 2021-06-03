@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>First Layout</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="First Layout">
+        <meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Lazurca Daniel">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="../resources/main.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="../bundles/css/all.css">
+        
+</head>
+<body>
+    <div class="sign-up-wrapper">
+        <header>
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="This is the logo">
+            </a>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="sign-up.html">Sign up</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>    
+                    <li>
+                        <a href="community.html">Community</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section>
+
+            <h3>Contact us</h3>
+            <div class="border"></div>
+            <div>Fill out the form below to learn more.</div>
+
+        </section>  
+    </div>
+    
+    <div class="sign-up-container">
+        <form>
+            <div class="input-wrapper">
+                <label for="fname">First name</label>
+                <i class="fas fa-user"></i>
+                <input required type=”text” autofocus minLength="5" name="fname" id="fname" placeholder="Enter your first name">
+            </div>
+            <div class="input-wrapper">
+                <label for="lname">Last name</label>
+                <i class="fas fa-user"></i>
+                <input required type=”text” minLength="5" name="lname" id="lname" placeholder="Enter your last name">
+            </div>
+            <div class="input-wrapper">
+                <label for="email">Email</label>
+                <i class="fas fa-envelope"></i>
+                <input required type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="border-form"></div>
+
+            <div class="textarea-wrapper input-wrapper">
+                <label for="email">Message</label>
+                <textarea name="Message" minLength="50" maxLength="250"></textarea>
+            </div>
+
+            <div class="submit-wrapper">
+                <input type="submit" name="submit" value="Submit">
+                <div>
+                    <div>or press</div>
+                    <div>enter</div>
+                </div>
+            </div>
+        </form>
+
+        <footer>
+            <div>Blockchain</div>
+            <div>Technology</div>
+        </footer>
+    </div> 
+</body>
+</html>
