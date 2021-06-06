@@ -122,6 +122,7 @@ section div:last-of-type{
     margin-bottom: 50px;
 }
 
+/* prea putin ai alocat ca si height, continutul nu este incadrat foarte bine. iti atasez un recording sa vezi cum vad eu */
 .sign-up-wrapper{
     height: 25%;
     background-image: url(../assets/background.jpg);
@@ -132,6 +133,7 @@ section div:last-of-type{
     margin-bottom: 50px;
 }
 
+/* ai limitat prea tare spatiul pe care il puteai ocupa aici. si este foarte disproportionat cu spatiul pe care il ai pe header */
 .sign-up-container{
     width: 25%;
     margin: 0 auto;
